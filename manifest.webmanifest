@@ -1,0 +1,31 @@
+{
+ "name": "DANTAKAVACHA \u00b7 Patient Companion",
+ "short_name": "DANTAKAVACHA",
+ "description": "Dental triage pass, inspection dates and treatment record (prototype).",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#FFFFFF",
+ "theme_color": "#1B3354",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

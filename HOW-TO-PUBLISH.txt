@@ -1,0 +1,19 @@
+DANTAKAVACHA web app (iPhone and Android) — how to publish the link
+
+The 7 files in this folder are the whole app. Put them on any https website; everyone then opens one link.
+
+GitHub Pages (free)
+1. github.com > + > New repository > name: dantakavacha > Public > Create.
+2. "uploading an existing file" > select all files in this folder (not the folder itself) > Commit changes.
+3. Settings > Pages > Source: Deploy from a branch > Branch: main, / (root) > Save.
+4. After 1-2 minutes the link appears at the top of that page:
+   https://YOUR-GITHUB-NAME.github.io/dantakavacha/
+5. To update later: upload the new index.html over the old one. Phones get it next time they open the app with internet.
+
+Netlify Drop (free, even quicker)
+1. On a computer, open app.netlify.com/drop and sign in (free).
+2. Drag this whole folder onto the page. A link like https://something.netlify.app appears.
+
+Note: the link is public (anyone who has it can open the app), but the app holds no data of its own;
+each person's record stays only on their own phone. Use dummy data only.
+Conceived and designed by Surg Cdr (D) Madhul Singhal
